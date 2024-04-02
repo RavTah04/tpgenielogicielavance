@@ -1,6 +1,6 @@
 package iut.bad;
 
-public class Humain {
+public class Humain implements Consommation {
     protected String nom;
     protected String prenom;
     protected int age;
@@ -60,9 +60,15 @@ public class Humain {
        
     }
     
- // Méthode pour indiquer une amitié entre deux humains
+ // Méthode pour indiquer une amitié avec une durée en jours (par défaut 100 jours)
+    public void ami(Humain ami, int dureeAmitie) {
+        System.out.println("L'humain " + nom + " " +prenom+ " est ami avec " + ami.getNom() + " depuis " + dureeAmitie + " jours.");
+        // Ajoutez ici la logique pour enregistrer l'amitié avec la durée spécifiée
+    }
+
+    // Surcharge de la méthode ami() avec une valeur par défaut de 100 jours
     public void ami(Humain ami) {
-        System.out.println("L'humain " + nom + " est ami avec " + ami.getNom());
+        ami(ami, 100); //100 est la valeur par defaut
     }
 }
 
