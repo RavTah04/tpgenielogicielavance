@@ -37,6 +37,11 @@ public class Humain {
     public void setAge(int age) {
         this.age = age;
     }
+    
+ // 7 - Méthode pour afficher les détails de l'humain
+    public void details() {
+        System.out.println("Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age);
+    }
 }
 
 
