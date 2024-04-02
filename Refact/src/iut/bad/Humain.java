@@ -47,6 +47,18 @@ public class Humain {
     public String toString() {
         return "Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age;
     }
+    
+ // Méthode pour simuler l'action de manger
+    public void manger() {
+        System.out.println("L'humain " + nom + " " +prenom+ " est en train de manger.");
+        
+    }
+
+    // Méthode pour simuler l'action de boire
+    public void boire() {
+        System.out.println("L'humain " + nom + " " +prenom+ "est en train de boire.");
+       
+    }
 }
 
 
