@@ -59,6 +59,11 @@ public class Humain {
         System.out.println("L'humain " + nom + " " +prenom+ "est en train de boire.");
        
     }
+    
+ // Méthode pour indiquer une amitié entre deux humains
+    public void ami(Humain ami) {
+        System.out.println("L'humain " + nom + " est ami avec " + ami.getNom());
+    }
 }
 
 
