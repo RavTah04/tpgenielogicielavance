@@ -2,7 +2,6 @@ package iut.bad;
 
 public class Homme extends Humain{
 	private String nom;
-	
 	private String prenom;
 	private int age;
 	
@@ -29,7 +28,6 @@ public class Homme extends Humain{
         super();
     }
 
-    // Constructeur avec paramètres
     public Homme(String nom, String prenom, int age) {
         super(nom, prenom, age);
     }

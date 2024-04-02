@@ -1,6 +1,5 @@
 package iut.bad;
 
-// Classe parente
 public class Humain {
     protected String nom;
     protected String prenom;
@@ -15,7 +14,6 @@ public class Humain {
         this.age = age;
     }
 
-    // Getters et setters
     public String getNom() {
         return nom;
     }
