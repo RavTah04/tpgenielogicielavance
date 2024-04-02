@@ -1,17 +1,14 @@
 package iut.bad;
 
 public class Femme extends Humain {
-private String nom;
-	
+	private String nom;
 	private String prenom;
 	private int age;
 	
-	// Constructeur par défaut
     public Femme() {
         super();
     }
 
-    // Constructeur avec paramètres
     public Femme(String nom, String prenom, int age) {
         super(nom, prenom, age);
     }
