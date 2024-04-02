@@ -42,6 +42,11 @@ public class Humain {
     public void details() {
         System.out.println("Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age);
     }
+    
+ // 8 - Méthode pour afficher les détails de l'humain
+    public String toString() {
+        return "Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age;
+    }
 }
 
 
