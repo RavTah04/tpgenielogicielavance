@@ -1,20 +1,12 @@
 package iut.bad;
 
-public class Homme {
+public class Homme extends Humain{
 	private String nom;
 	
 	private String prenom;
 	private int age;
 	
-	public Homme(String nom, String prenom, int age) {
-		super();
-		this.nom = nom;
-		this.prenom = prenom;
-		this.age = age;
-	}
-	public Homme() {
-		super();
-	}
+	
 	public String getNom() {
 		return nom;
 	}
@@ -33,4 +25,12 @@ public class Homme {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	public Homme() {
+        super();
+    }
+
+    // Constructeur avec paramètres
+    public Homme(String nom, String prenom, int age) {
+        super(nom, prenom, age);
+    }
 }
